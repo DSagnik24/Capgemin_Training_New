@@ -8,7 +8,7 @@ public class ShortConversion {
 		short s = 4;
 	
         long b = s;
-        int a = (int)s;
+        int a = s;
 		byte by = (byte)s;
 		float f = s;
 		double d = s;

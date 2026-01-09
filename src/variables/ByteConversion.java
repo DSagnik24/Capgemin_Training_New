@@ -4,11 +4,11 @@ public class ByteConversion {
 	public static void main(String[] args) {
 		byte by = 40;
 		
-		int a = (byte)by;
-		long b = (byte)by;
-		short s = (byte)by;
-		float f = (byte)by;
-		double d = (byte)by;
+		int a =by;
+		long b = by;
+		short s = by;
+		float f = by;
+		double d = by;
 		char c = (char)by;
 		 
 		System.out.println(a);
