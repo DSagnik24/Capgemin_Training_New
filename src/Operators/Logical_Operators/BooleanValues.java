@@ -16,5 +16,10 @@ public class BooleanValues {
 		System.out.println( b> 10 || ++b>10 );
 		System.out.println( b);
 		
+		//  ! operator
+		int c = 6;
+		System.out.println( !(c> 10) || ++c>10 );
+		System.out.println( c);
+		
 	}
 }
