@@ -1,6 +1,6 @@
 package variables;
 
-public class CharConversion {
+public class CharConversion { //2 bytes
 	public static void main(String[]args) {
 		
 		char c = 'A';
@@ -20,6 +20,7 @@ public class CharConversion {
 		System.out.println(f);
 		System.out.println(d);
 		System.out.println(c);
+		System.out.println(a);
 	}
 
 }

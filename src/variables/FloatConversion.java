@@ -1,6 +1,6 @@
 package variables;
 
-public class FloatConversion {
+public class FloatConversion { //4 byte
 	public static void main(String[]args) {
 		
 		float f = -35;

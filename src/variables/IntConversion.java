@@ -1,15 +1,15 @@
 package variables;
 
-public class IntConversion {
+public class IntConversion { // 4 byte
 	public static void main(String[]args) {
 
 		int a = 40;
 		
 		byte by = (byte)a;
-		long b = (byte)a;
-		short s = (byte)a;
-		float f = (byte)a;
-		double d = (byte)a;
+		long b = a;
+		short s = (short)a;
+		float f = a;
+		double d = a;
 		char c = (char)a;
 		 
 		System.out.println(by);
