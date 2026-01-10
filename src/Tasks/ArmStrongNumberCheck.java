@@ -8,6 +8,7 @@ public class ArmStrongNumberCheck {
 		 
 		int temp = num;
 		int sum = 0;
+		
 		while(temp>0) {
 			int d = temp%10;
 			sum += Power(d,count);
