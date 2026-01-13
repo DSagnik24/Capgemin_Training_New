@@ -4,7 +4,12 @@ package Tasks;
 
 public class StrongNumberCheck {
 	public static void main(String[]args) {
-		int num = 146;
+		int n = 145;
+		System.out.println(StrongNumbercheck(n));
+	}
+	
+	static String StrongNumbercheck(int num) {
+		
 		int temp = num;
 		int sum =0;
 		
@@ -13,11 +18,7 @@ public class StrongNumberCheck {
 			num/=10;
 		}
 		
-		if(sum == temp) {
-			System.out.println("Strong number");
-		}else {
-			System.out.println("Not Strong number");
-		}
+		return sum == temp ?"Strong number": "Not Strong number";
 	}
 	
 	static int factorial(int n) {
