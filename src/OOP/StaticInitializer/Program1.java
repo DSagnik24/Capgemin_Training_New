@@ -2,7 +2,12 @@ package OOP.StaticInitializer;
 
 public class Program1 {
 	
-	static int a = test(); //single line initializer 
+	static int a = 20;//single line initializer 
+
+	static { //multi-line initializer
+		a = 30;
+		a = test();
+	}
 	
 	public static void main(String[] args) {
 		System.out.println("Main Start");
