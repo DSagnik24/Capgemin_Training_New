@@ -20,7 +20,13 @@ public class Increment {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(plusOne(new int[]{1, 2, 3,7,2,1})));
-        System.out.println(Arrays.toString(plusOne(new int[]{9,6,4,8,9})));
+    	int []arr1 = {9,9,9,9,9};
+    	int[]arr = plusOne(arr1);
+    	
+    for (int i = 0; i < arr.length; i++) {
+		System.out.print(arr[i] + " ");
+	}
+//        System.out.println(Arrays.toString(plusOne(new int[]{1, 2, 3,7,2,1})));
+//        System.out.println(Arrays.toString(plusOne(new int[]{9,9,9,9,9})));
     }
 }
