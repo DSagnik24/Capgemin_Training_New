@@ -25,9 +25,6 @@ public class ValidAnagram {
 			}
 		}
 		return true;
-		
-		
-		
-//		return (set1.equals(set2));
+
 	}
 }
