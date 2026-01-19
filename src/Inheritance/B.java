@@ -1,14 +1,17 @@
 package Inheritance;
 
 public class B extends A {
-	static int j = 20;
+	static int a = 500;
+	
+	static void b() {
+		System.out.println("B()");
+	}
+	
+	static {
+		System.out.println("B static init");
+	}
 	
 	public static void main(String[] args) {
-		System.out.println(A.i);
-		System.out.println(B.i);
-		B.print();
-		System.out.println(B.j);
-		//System.out.println(A.j); //Subclass members can't be used by superclass elements
-		
+		System.out.println("B main()");
 	}
 }
