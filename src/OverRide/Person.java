@@ -18,7 +18,6 @@ public class Person {
 		return "Person [id=" + id + ", email=" + email + ", age=" + age + "]";
 	}
 
-
 	public int hashCode() {
 		return Objects.hash(id,email);
 	}

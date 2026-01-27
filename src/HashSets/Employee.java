@@ -46,4 +46,9 @@ public class Employee {
                Double.compare(e.salary, salary) == 0 &&
                Objects.equals(name, e.name);
     }
+
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
