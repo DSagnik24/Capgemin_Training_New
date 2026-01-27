@@ -40,5 +40,7 @@ public class IteratorDemo {
 			Object obj1 = i.next();
 			System.out.println(obj1);
 		}
+		
+		
 	}
 }
